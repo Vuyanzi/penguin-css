@@ -1,9 +1,31 @@
+@keyframes floating {
+  0% { transform: translate3d(0, 0, 0); }
+  60% { transform: translate3d(0, -30%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.float {
+  animation: floating 3s ease-in-out infinite;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+h3{
+  font-family: montserrat;
+  font-size: 50px;
+}
+p{
+  font-family: mallanna;
+  font-size: 46px;
+}
+.text{
+  text-align: center;
+  margin: auto;
+}
 .penguin {
   --penguin-skin: gray;
   position: relative;
   margin: auto;
   display: block;
-  margin-top: 5%;
   width: 300px;
   height: 300px;
 }
@@ -175,9 +197,10 @@
   height: 10%;
   border-radius: 50%;
 }
-
+html,
 body {
-  background:#c6faf1;
+  background:#E0EBE8;
+  height: 100%;
 }
 
 .penguin * {
