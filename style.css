@@ -9,6 +9,9 @@
   left: 40%;
   top: 40%;
 }
+.grid-container{
+  display: inline-grid;
+}
 h3{
   font-family: montserrat;
   font-size: 50px;
