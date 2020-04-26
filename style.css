@@ -22,7 +22,7 @@ p{
   margin: auto;
 }
 .penguin {
-  --penguin-skin: gray;
+  --penguin-skin: #217D68;
   position: relative;
   margin: auto;
   display: block;
@@ -116,7 +116,7 @@ p{
 .right-feet {
   top: 85%;
   left: 60%;
-  background: orange;
+  background: #F6D546;
   width: 15%;
   height: 30%;
   border-radius: 50% 50% 50% 50%;
@@ -127,7 +127,7 @@ p{
 .left-feet {
   top: 85%;
   left: 25%;
-  background: orange;
+  background: #F6D546;
   width: 15%;
   height: 30%;
   border-radius: 50% 50% 50% 50%;
@@ -165,7 +165,7 @@ p{
 .blush-right {
   top: 65%;
   left: 15%;
-  background: pink;
+  background: #E0EBE8;
   width: 15%;
   height: 10%;
   border-radius: 50%;
@@ -174,7 +174,7 @@ p{
 .blush-left {
   top: 65%;
   left: 70%;
-  background: pink;
+  background: #E0EBE8;
   width: 15%;
   height: 10%;
   border-radius: 50%;
@@ -183,7 +183,7 @@ p{
 .beak-top {
   top: 60%;
   left: 40%;
-  background: orange;
+  background: #F6D546;
   width: 20%;
   height: 10%;
   border-radius: 50%;
@@ -192,7 +192,7 @@ p{
 .beak-bottom {
   top: 65%;
   left: 42%;
-  background: orange;
+  background: #F6D546;
   width: 16%;
   height: 10%;
   border-radius: 50%;
