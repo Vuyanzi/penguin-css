@@ -5,13 +5,20 @@
 }
 .float {
   animation: floating 3s ease-in-out infinite;
-  position: absolute;
-  left: 40%;
-  top: 40%;
 }
-.grid-container{
-  display: inline-grid;
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.fours{
+  font-weight: 500;
+  font-size: 48px;
+}
+
 h3{
   font-family: montserrat;
   font-size: 50px;
@@ -23,7 +30,18 @@ p{
 .text{
   text-align: center;
   margin: auto;
+  width: 100%;
 }
+
+.text h3{
+  margin: 0px;
+}
+
+.text p{
+  padding: 5px;
+  margin: 5px;
+}
+
 .penguin {
   --penguin-skin: #217D68;
   position: relative;
